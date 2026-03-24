@@ -1,0 +1,11 @@
+salario = float(input("digite suas horas de trabalho"))
+
+conta = 35.00 * salario
+
+if conta <= 1000.00:
+    print("voce recebera mais R$ 300.00")
+    conta = conta + 300
+    print("novo salario:", conta)
+else:
+    print("seu salario total", conta)
+
