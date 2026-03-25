@@ -1,0 +1,7 @@
+valor = float(input("digite seu valor"))
+
+if valor >= 100:
+    final = valor /10
+    print(f"parabens vc ganhou 10% desconto", final)
+else:
+    print("seu valor nao conseguiu chegar ao desconto")
