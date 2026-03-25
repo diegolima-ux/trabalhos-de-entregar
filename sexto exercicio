@@ -1,0 +1,8 @@
+numero = float(input("ponha um numero"))
+final = numero * 2
+if numero >= 0:
+    print("seu numero e positivo")
+else:
+    print("seu numero é invalido")
+
+        
