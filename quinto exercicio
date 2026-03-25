@@ -1,0 +1,6 @@
+valor = float(input("digite o valor que desja pagar"))
+L = 7.5
+
+litros = valor / L
+print("litros abastecidos", litros)
+
