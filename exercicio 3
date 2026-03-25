@@ -1,0 +1,9 @@
+ano_de_nascimento = int(input("em que ano voce nasceu?"))
+ano_atual = 2026
+idade = ano_atual - ano_de_nascimento
+
+
+if idade >= 16:
+    print("voce pode votar")
+else:
+    print("voce nao pode votar", idade)
