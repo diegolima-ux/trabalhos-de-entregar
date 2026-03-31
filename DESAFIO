@@ -1,0 +1,28 @@
+# Entrada de dados
+nome = input("Digite o nome do cliente: ")
+valor = float(input("Digite o valor da compra: "))
+pagamento = input("Forma de pagamento (1 - dinheiro, 2 - cartão): ")
+
+# Inicializando desconto
+desconto = 0
+
+# Regras
+if valor > 200:
+    if pagamento == "1":
+        desconto = 0.15
+    else:
+        desconto = 0.05
+else:
+    if pagamento == "1":
+        desconto = 0.10
+    else:
+        desconto = 0
+
+# Cálculo do valor final
+valor_final = valor - (valor * desconto)
+
+# Saída
+print("\n--- Resumo da Compra ---")
+print("Cliente:", nome)
+print("Valor original: R$", valor)
+print("Valor final: R$", valor_final)
